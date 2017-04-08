@@ -1,0 +1,108 @@
+0c0ba748-7823-4cfc-ac10-4e85a68589d6:
+  service_policies:
+  - direction: input
+    name: company-user-access-450x
+  - direction: output
+    name: company-user-access-dbl
+  spanning-tree:
+    bpduguard: true
+    portfast: true
+  switchport:
+    access:
+      vlan: 267
+    mode:
+    - trunk
+    trunk:
+      allowed_vlans:
+        vlans: 700,714,742,743
+      native_vlan: 700
+    voice:
+      vlan: 867
+180f10a5-5380-4735-b1a7-c2ec006dbf84:
+  service_policies:
+  - direction: input
+    name: company-user-access-450x
+  - direction: output
+    name: company-user-access-dbl
+  spanning-tree:
+    bpduguard: true
+    portfast: true
+  switchport:
+    access:
+      vlan: 267
+    mode:
+    - access
+    voice:
+      vlan: 867
+4b99596f-ceed-485b-8c8f-784cf2afdc29: {}
+5051c40e-73a6-4ae3-8a55-06680026cb22:
+  ip:
+    address:
+      negate: true
+  shutdown: true
+6c8b44a5-f543-43cf-a056-17cf7a7e4c39:
+  channel_group: 24
+  channel_group_mode:
+  - active
+  switchport:
+    mode:
+    - trunk
+    trunk:
+      allowed_vlans:
+        vlans: 1,2,5,267,300,700,714,741-743,860,867
+      native_vlan: 5
+9b58bc7d-938d-4f9f-b5c3-4efd1e447b4f:
+  switchport:
+    mode:
+    - trunk
+    present: true
+    trunk:
+      allowed_vlans:
+        vlans: 1,2,5,267,300,700,714,741-743,860,867
+      native_vlan: 5
+aa0d5f81-8532-4c3c-b99a-d7c55c85d4a4:
+  ip:
+    address:
+      negate: true
+c973554b-ea8b-4260-aed9-b81346bd21d0:
+  shutdown: true
+  switchport:
+    access:
+      vlan: 700
+    mode:
+    - access
+d1d94505-90e4-49be-992d-39fb2fc8a8e3:
+  ip:
+    address:
+      negate: true
+  vrf: mgmtVrf
+f2639874-3fe6-4b9c-9f4a-bdb35208b556:
+  service_policies:
+  - direction: input
+    name: company-user-access-450x
+  - direction: output
+    name: company-user-access-dbl
+  spanning-tree:
+    bpduguard: true
+    portfast: true
+  switchport:
+    access:
+      vlan: 860
+    mode:
+    - access
+fb52e611-0490-4d60-833f-934b7be9a3b9:
+  service_policies:
+  - direction: input
+    name: company-user-access-450x
+  - direction: output
+    name: company-user-access-dbl
+  spanning-tree:
+    bpduguard: true
+    portfast: true
+  switchport:
+    access:
+      vlan: 860
+    mode:
+    - access
+    voice:
+      vlan: 867

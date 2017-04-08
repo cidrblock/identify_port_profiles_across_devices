@@ -1,0 +1,4043 @@
+os: cisco_ios-xe
+interfaces:
+  FastEthernet1:
+    ip:
+      address:
+        negate: true
+    name: FastEthernet1
+    vrf: mgmtVrf
+  GigabitEthernet1/1:
+    name: GigabitEthernet1/1
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/10:
+    name: GigabitEthernet1/10
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/11:
+    name: GigabitEthernet1/11
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/12:
+    name: GigabitEthernet1/12
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/13:
+    name: GigabitEthernet1/13
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/14:
+    name: GigabitEthernet1/14
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/15:
+    name: GigabitEthernet1/15
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/16:
+    name: GigabitEthernet1/16
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/17:
+    name: GigabitEthernet1/17
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/18:
+    name: GigabitEthernet1/18
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/19:
+    name: GigabitEthernet1/19
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/2:
+    name: GigabitEthernet1/2
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/20:
+    name: GigabitEthernet1/20
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/21:
+    name: GigabitEthernet1/21
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/22:
+    name: GigabitEthernet1/22
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/23:
+    name: GigabitEthernet1/23
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/24:
+    name: GigabitEthernet1/24
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/25:
+    name: GigabitEthernet1/25
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/26:
+    name: GigabitEthernet1/26
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/27:
+    name: GigabitEthernet1/27
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/28:
+    name: GigabitEthernet1/28
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/29:
+    name: GigabitEthernet1/29
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/3:
+    name: GigabitEthernet1/3
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/30:
+    name: GigabitEthernet1/30
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/31:
+    name: GigabitEthernet1/31
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/32:
+    name: GigabitEthernet1/32
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/33:
+    name: GigabitEthernet1/33
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/34:
+    name: GigabitEthernet1/34
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/35:
+    name: GigabitEthernet1/35
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/36:
+    name: GigabitEthernet1/36
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/37:
+    name: GigabitEthernet1/37
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/38:
+    name: GigabitEthernet1/38
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/39:
+    name: GigabitEthernet1/39
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/4:
+    name: GigabitEthernet1/4
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/40:
+    name: GigabitEthernet1/40
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/41:
+    name: GigabitEthernet1/41
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/42:
+    name: GigabitEthernet1/42
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/43:
+    name: GigabitEthernet1/43
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/44:
+    name: GigabitEthernet1/44
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/45:
+    name: GigabitEthernet1/45
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/46:
+    name: GigabitEthernet1/46
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/47:
+    name: GigabitEthernet1/47
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/48:
+    name: GigabitEthernet1/48
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/5:
+    name: GigabitEthernet1/5
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/6:
+    name: GigabitEthernet1/6
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/7:
+    name: GigabitEthernet1/7
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/8:
+    name: GigabitEthernet1/8
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet1/9:
+    name: GigabitEthernet1/9
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/1:
+    name: GigabitEthernet2/1
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/10:
+    name: GigabitEthernet2/10
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/11:
+    name: GigabitEthernet2/11
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/12:
+    name: GigabitEthernet2/12
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/13:
+    name: GigabitEthernet2/13
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/14:
+    name: GigabitEthernet2/14
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/15:
+    name: GigabitEthernet2/15
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/16:
+    name: GigabitEthernet2/16
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/17:
+    name: GigabitEthernet2/17
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/18:
+    name: GigabitEthernet2/18
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/19:
+    name: GigabitEthernet2/19
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/2:
+    name: GigabitEthernet2/2
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/20:
+    name: GigabitEthernet2/20
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/21:
+    name: GigabitEthernet2/21
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/22:
+    name: GigabitEthernet2/22
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/23:
+    name: GigabitEthernet2/23
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/24:
+    name: GigabitEthernet2/24
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/25:
+    name: GigabitEthernet2/25
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/26:
+    name: GigabitEthernet2/26
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/27:
+    name: GigabitEthernet2/27
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/28:
+    name: GigabitEthernet2/28
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/29:
+    name: GigabitEthernet2/29
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/3:
+    name: GigabitEthernet2/3
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/30:
+    name: GigabitEthernet2/30
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/31:
+    name: GigabitEthernet2/31
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/32:
+    name: GigabitEthernet2/32
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/33:
+    name: GigabitEthernet2/33
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/34:
+    name: GigabitEthernet2/34
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/35:
+    name: GigabitEthernet2/35
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/36:
+    name: GigabitEthernet2/36
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/37:
+    name: GigabitEthernet2/37
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/38:
+    name: GigabitEthernet2/38
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/39:
+    name: GigabitEthernet2/39
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/4:
+    name: GigabitEthernet2/4
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/40:
+    name: GigabitEthernet2/40
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/41:
+    name: GigabitEthernet2/41
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/42:
+    name: GigabitEthernet2/42
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/43:
+    name: GigabitEthernet2/43
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/44:
+    name: GigabitEthernet2/44
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/45:
+    name: GigabitEthernet2/45
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/46:
+    name: GigabitEthernet2/46
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/47:
+    name: GigabitEthernet2/47
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/48:
+    name: GigabitEthernet2/48
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/5:
+    name: GigabitEthernet2/5
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/6:
+    name: GigabitEthernet2/6
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/7:
+    name: GigabitEthernet2/7
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/8:
+    name: GigabitEthernet2/8
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet2/9:
+    name: GigabitEthernet2/9
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/1:
+    name: GigabitEthernet5/1
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/10:
+    name: GigabitEthernet5/10
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/11:
+    name: GigabitEthernet5/11
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/12:
+    name: GigabitEthernet5/12
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/13:
+    name: GigabitEthernet5/13
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/14:
+    name: GigabitEthernet5/14
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/15:
+    name: GigabitEthernet5/15
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/16:
+    name: GigabitEthernet5/16
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/17:
+    name: GigabitEthernet5/17
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/18:
+    name: GigabitEthernet5/18
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/19:
+    name: GigabitEthernet5/19
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/2:
+    name: GigabitEthernet5/2
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/20:
+    name: GigabitEthernet5/20
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/21:
+    name: GigabitEthernet5/21
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/22:
+    name: GigabitEthernet5/22
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/23:
+    name: GigabitEthernet5/23
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/24:
+    name: GigabitEthernet5/24
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/25:
+    name: GigabitEthernet5/25
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/26:
+    name: GigabitEthernet5/26
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/27:
+    name: GigabitEthernet5/27
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/28:
+    name: GigabitEthernet5/28
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/29:
+    name: GigabitEthernet5/29
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/3:
+    name: GigabitEthernet5/3
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/30:
+    name: GigabitEthernet5/30
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/31:
+    name: GigabitEthernet5/31
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/32:
+    name: GigabitEthernet5/32
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/33:
+    name: GigabitEthernet5/33
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/34:
+    name: GigabitEthernet5/34
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/35:
+    name: GigabitEthernet5/35
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/36:
+    name: GigabitEthernet5/36
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/37:
+    name: GigabitEthernet5/37
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/38:
+    name: GigabitEthernet5/38
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/39:
+    name: GigabitEthernet5/39
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/4:
+    name: GigabitEthernet5/4
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/40:
+    name: GigabitEthernet5/40
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/41:
+    name: GigabitEthernet5/41
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/42:
+    name: GigabitEthernet5/42
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/43:
+    name: GigabitEthernet5/43
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/44:
+    name: GigabitEthernet5/44
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/45:
+    name: GigabitEthernet5/45
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/46:
+    name: GigabitEthernet5/46
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/47:
+    name: GigabitEthernet5/47
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/48:
+    name: GigabitEthernet5/48
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/5:
+    name: GigabitEthernet5/5
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/6:
+    name: GigabitEthernet5/6
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/7:
+    name: GigabitEthernet5/7
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/8:
+    name: GigabitEthernet5/8
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet5/9:
+    name: GigabitEthernet5/9
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/1:
+    name: GigabitEthernet6/1
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/10:
+    name: GigabitEthernet6/10
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/11:
+    name: GigabitEthernet6/11
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/12:
+    name: GigabitEthernet6/12
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/13:
+    description: Quo.
+    name: GigabitEthernet6/13
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - trunk
+      trunk:
+        allowed_vlans:
+          vlans: 700,714,742,743
+        native_vlan: 700
+      voice:
+        vlan: 867
+  GigabitEthernet6/14:
+    description: Quisquam.
+    name: GigabitEthernet6/14
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - trunk
+      trunk:
+        allowed_vlans:
+          vlans: 700,714,742,743
+        native_vlan: 700
+      voice:
+        vlan: 867
+  GigabitEthernet6/15:
+    description: Harum.
+    name: GigabitEthernet6/15
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - trunk
+      trunk:
+        allowed_vlans:
+          vlans: 700,714,742,743
+        native_vlan: 700
+      voice:
+        vlan: 867
+  GigabitEthernet6/16:
+    description: Esse.
+    name: GigabitEthernet6/16
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - trunk
+      trunk:
+        allowed_vlans:
+          vlans: 700,714,742,743
+        native_vlan: 700
+      voice:
+        vlan: 867
+  GigabitEthernet6/17:
+    description: Sunt.
+    name: GigabitEthernet6/17
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - trunk
+      trunk:
+        allowed_vlans:
+          vlans: 700,714,742,743
+        native_vlan: 700
+      voice:
+        vlan: 867
+  GigabitEthernet6/18:
+    description: Quam.
+    name: GigabitEthernet6/18
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - trunk
+      trunk:
+        allowed_vlans:
+          vlans: 700,714,742,743
+        native_vlan: 700
+      voice:
+        vlan: 867
+  GigabitEthernet6/19:
+    name: GigabitEthernet6/19
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/2:
+    name: GigabitEthernet6/2
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/20:
+    name: GigabitEthernet6/20
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/21:
+    name: GigabitEthernet6/21
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/22:
+    name: GigabitEthernet6/22
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/23:
+    name: GigabitEthernet6/23
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/24:
+    name: GigabitEthernet6/24
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/25:
+    name: GigabitEthernet6/25
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/26:
+    name: GigabitEthernet6/26
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/27:
+    name: GigabitEthernet6/27
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/28:
+    name: GigabitEthernet6/28
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/29:
+    name: GigabitEthernet6/29
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/3:
+    name: GigabitEthernet6/3
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/30:
+    name: GigabitEthernet6/30
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/31:
+    name: GigabitEthernet6/31
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/32:
+    name: GigabitEthernet6/32
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/33:
+    name: GigabitEthernet6/33
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/34:
+    name: GigabitEthernet6/34
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/35:
+    name: GigabitEthernet6/35
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/36:
+    name: GigabitEthernet6/36
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/37:
+    name: GigabitEthernet6/37
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/38:
+    name: GigabitEthernet6/38
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/39:
+    name: GigabitEthernet6/39
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/4:
+    name: GigabitEthernet6/4
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/40:
+    name: GigabitEthernet6/40
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/41:
+    name: GigabitEthernet6/41
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/42:
+    name: GigabitEthernet6/42
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/43:
+    name: GigabitEthernet6/43
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/44:
+    name: GigabitEthernet6/44
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/45:
+    name: GigabitEthernet6/45
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/46:
+    name: GigabitEthernet6/46
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/47:
+    name: GigabitEthernet6/47
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/48:
+    name: GigabitEthernet6/48
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/5:
+    name: GigabitEthernet6/5
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/6:
+    name: GigabitEthernet6/6
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/7:
+    name: GigabitEthernet6/7
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/8:
+    name: GigabitEthernet6/8
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet6/9:
+    name: GigabitEthernet6/9
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/1:
+    name: GigabitEthernet7/1
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 860
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/10:
+    name: GigabitEthernet7/10
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/11:
+    name: GigabitEthernet7/11
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/12:
+    name: GigabitEthernet7/12
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/13:
+    description: Amet.
+    name: GigabitEthernet7/13
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - trunk
+      trunk:
+        allowed_vlans:
+          vlans: 700,714,742,743
+        native_vlan: 700
+      voice:
+        vlan: 867
+  GigabitEthernet7/14:
+    description: Quo modi.
+    name: GigabitEthernet7/14
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - trunk
+      trunk:
+        allowed_vlans:
+          vlans: 700,714,742,743
+        native_vlan: 700
+      voice:
+        vlan: 867
+  GigabitEthernet7/15:
+    description: Sunt.
+    name: GigabitEthernet7/15
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - trunk
+      trunk:
+        allowed_vlans:
+          vlans: 700,714,742,743
+        native_vlan: 700
+      voice:
+        vlan: 867
+  GigabitEthernet7/16:
+    description: Eos.
+    name: GigabitEthernet7/16
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - trunk
+      trunk:
+        allowed_vlans:
+          vlans: 700,714,742,743
+        native_vlan: 700
+      voice:
+        vlan: 867
+  GigabitEthernet7/17:
+    description: Dolorum.
+    name: GigabitEthernet7/17
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - trunk
+      trunk:
+        allowed_vlans:
+          vlans: 700,714,742,743
+        native_vlan: 700
+      voice:
+        vlan: 867
+  GigabitEthernet7/18:
+    description: Ipsum.
+    name: GigabitEthernet7/18
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - trunk
+      trunk:
+        allowed_vlans:
+          vlans: 700,714,742,743
+        native_vlan: 700
+      voice:
+        vlan: 867
+  GigabitEthernet7/19:
+    name: GigabitEthernet7/19
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/2:
+    name: GigabitEthernet7/2
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 860
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/20:
+    name: GigabitEthernet7/20
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/21:
+    name: GigabitEthernet7/21
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/22:
+    name: GigabitEthernet7/22
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/23:
+    name: GigabitEthernet7/23
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/24:
+    name: GigabitEthernet7/24
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/25:
+    description: Nam.
+    name: GigabitEthernet7/25
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/26:
+    description: Esse.
+    name: GigabitEthernet7/26
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/27:
+    description: Modi.
+    name: GigabitEthernet7/27
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/28:
+    description: Non.
+    name: GigabitEthernet7/28
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/29:
+    description: Quae.
+    name: GigabitEthernet7/29
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/3:
+    name: GigabitEthernet7/3
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 860
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/30:
+    description: Est.
+    name: GigabitEthernet7/30
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/31:
+    description: Quo.
+    name: GigabitEthernet7/31
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/32:
+    description: Quos.
+    name: GigabitEthernet7/32
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/33:
+    description: Vel.
+    name: GigabitEthernet7/33
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/34:
+    description: Quis.
+    name: GigabitEthernet7/34
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/35:
+    description: Odit.
+    name: GigabitEthernet7/35
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/36:
+    description: Ad.
+    name: GigabitEthernet7/36
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/37:
+    description: Ab.
+    name: GigabitEthernet7/37
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/38:
+    description: Est.
+    name: GigabitEthernet7/38
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/39:
+    description: Vel.
+    name: GigabitEthernet7/39
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/4:
+    description: Sed.
+    name: GigabitEthernet7/4
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 860
+      mode:
+      - access
+  GigabitEthernet7/40:
+    description: Sed.
+    name: GigabitEthernet7/40
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/41:
+    description: Vero.
+    name: GigabitEthernet7/41
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/42:
+    description: Quas.
+    name: GigabitEthernet7/42
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/43:
+    description: Odit.
+    name: GigabitEthernet7/43
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/44:
+    description: Cum.
+    name: GigabitEthernet7/44
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/45:
+    description: Hic.
+    name: GigabitEthernet7/45
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/46:
+    description: Eos.
+    name: GigabitEthernet7/46
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/47:
+    description: Quod.
+    name: GigabitEthernet7/47
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/48:
+    description: Enim.
+    name: GigabitEthernet7/48
+    shutdown: true
+    switchport:
+      access:
+        vlan: 700
+      mode:
+      - access
+  GigabitEthernet7/5:
+    description: Laborum.
+    name: GigabitEthernet7/5
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 860
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/6:
+    description: Eveniet neque.
+    name: GigabitEthernet7/6
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 860
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/7:
+    name: GigabitEthernet7/7
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/8:
+    name: GigabitEthernet7/8
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  GigabitEthernet7/9:
+    name: GigabitEthernet7/9
+    service_policies:
+    - direction: input
+      name: company-user-access-450x
+    - direction: output
+      name: company-user-access-dbl
+    spanning-tree:
+      bpduguard: true
+      portfast: true
+    switchport:
+      access:
+        vlan: 267
+      mode:
+      - access
+      voice:
+        vlan: 867
+  Loopback0:
+    ip:
+      address:
+        negate: true
+    name: Loopback0
+  Port-channel24:
+    description: Ipsum doloribus magni neque.
+    name: Port-channel24
+    switchport:
+      mode:
+      - trunk
+      present: true
+      trunk:
+        allowed_vlans:
+          vlans: 1,2,5,267,300,700,714,741-743,860,867
+        native_vlan: 5
+  TenGigabitEthernet3/1:
+    channel_group: 24
+    channel_group_mode:
+    - active
+    description: Eaque odio inventore soluta animi eos.
+    name: TenGigabitEthernet3/1
+    switchport:
+      mode:
+      - trunk
+      trunk:
+        allowed_vlans:
+          vlans: 1,2,5,267,300,700,714,741-743,860,867
+        native_vlan: 5
+  TenGigabitEthernet3/2:
+    channel_group: 24
+    channel_group_mode:
+    - active
+    description: Veniam numquam repellat labore iure.
+    name: TenGigabitEthernet3/2
+    switchport:
+      mode:
+      - trunk
+      trunk:
+        allowed_vlans:
+          vlans: 1,2,5,267,300,700,714,741-743,860,867
+        native_vlan: 5
+  TenGigabitEthernet3/3:
+    name: TenGigabitEthernet3/3
+  TenGigabitEthernet3/4:
+    name: TenGigabitEthernet3/4
+  TenGigabitEthernet3/5:
+    name: TenGigabitEthernet3/5
+  TenGigabitEthernet3/6:
+    name: TenGigabitEthernet3/6
+  TenGigabitEthernet3/7:
+    name: TenGigabitEthernet3/7
+  TenGigabitEthernet3/8:
+    name: TenGigabitEthernet3/8
+  Vlan1:
+    ip:
+      address:
+        negate: true
+    name: Vlan1
+  Vlan2:
+    description: Esse.
+    ip:
+      address:
+        ipv4_address: 10.0.0.96
+        ipv4_netmask: 255.255.255.128
+    name: Vlan2
+  Vlan267:
+    ip:
+      address:
+        negate: true
+    name: Vlan267
+    shutdown: true
+  Vlan5:
+    description: Tempora.
+    ip:
+      address:
+        negate: true
+    name: Vlan5
+    shutdown: true
+  Vlan867:
+    description: Soluta dolorem.
+    ip:
+      address:
+        negate: true
+    name: Vlan867
+    shutdown: true

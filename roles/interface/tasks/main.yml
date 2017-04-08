@@ -1,0 +1,15 @@
+
+# we need to load the config since this isn't a real device
+- set_fact:
+    running_configuration: "{{ lookup('file', './configurations/' + inventory_hostname + '.cfg') }}"
+
+- name: Update the interface with their parents
+  set_fact:
+    interfaces: "{{ lookup('add_defaults_dict', interfaces, hostvars[inventory_hostname] ) }}"
+
+- name: Include OS files for interfaces
+  include: "{{ item }}"
+  with_first_found:
+    - files:
+       - "{{ os }}.yml"
+       - default.yml
